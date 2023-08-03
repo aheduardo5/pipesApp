@@ -36,8 +36,9 @@ export class MenuComponent {
         icon: 'pi pi-cog',
         items: [
           {
-            label: 'No Comunes',
+            label: 'Custom pipes',
             icon: 'pi pi-globe',
+            routerLink:'/custom'
           },
         ],
       },
